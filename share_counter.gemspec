@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Check how many times a URL has been shared on social networks and aggregators}
   spec.description   = %q{This gem makes it super easy to check how many times a page/URL has been shared on social networks and aggregators.}
-  spec.homepage      = "http://www.chorally.com"
+  spec.homepage      = "https://github.com/chorally/share_counter"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
