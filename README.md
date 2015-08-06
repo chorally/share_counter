@@ -16,7 +16,6 @@ Stumbleupon
 
 Pinterest
 
-SeoMoz (individually)
 
 ## Installation
 
