@@ -6,7 +6,7 @@ Services currently supported:
 
 Facebook
 
-Twitter
+Twitter (not yet supported by twitter http://www.i-programmer.info/news/155-social-media/9048-twitter-switches-off-json-api-no-more-tweet-counts.html)
 
 Linkedin
 

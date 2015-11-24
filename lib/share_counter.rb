@@ -6,6 +6,8 @@ module ShareCounter
   def self.twitter url
     html = make_request "http://urls.api.twitter.com/1/urls/count.json",  url: url
     return JSON.parse(html)['count']
+  rescue Exception
+     0
   end
 
   def self.facebook url
@@ -73,7 +75,6 @@ module ShareCounter
         ? response.gsub(/\A\/\*\*\/\s+/, "").gsub(/^(.*);+\n*$/, "\\1").gsub(/^#{params[:callback]}\((.*)\)$/, "\\1") \
         : response
     rescue => e
-      puts "Failed #{attempts} attempt(s) - #{e}"
       attempts += 1
       if attempts <= 3
         sleep 2
